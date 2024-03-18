@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0; 
+    background: url('https://th.bing.com/th/id/OIP.mF64Xt-XyBuhjOkweHQodQHaEo?rs=1&pid=ImgDetMain') center/cover;
+    backdrop-filter: blur(10px);
+    opacity: 0.9; 
+    }    
+
+
+
+.card {
+    width: 300px; 
+    padding: 20px;
+    background-color: #fffcfc9d;
+    border: 0.5px solid black;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 auto; 
+    overflow: hidden;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0 4px 8px rgb(0, 179, 255), 4px 0 8px rgb(0, 179, 255); /* Tambahkan ini untuk bayangan di bawah dan di kanan */
+  }
+  
+  .card-content {
+    padding: 20px;
+  }
+  
+  .card-content h3 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .card-content p {
+    color: #666;
+  }
+  

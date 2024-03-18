@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pertemuan 4</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <div class="card">
+        <img src="assets/OIP.jpeg" alt="Rocket">
+        <h1>Praktikum PADW4</h1>
+        <p id="date"></p>
+        <p>CSS adalah <span>Bahasa Style Sheet</span> yang digunakan untuk mengatur tampilan dari sebuah halaman menggunakan CSS, kita dapat membuat tampilan dari sebuah menjadi.</p>
+        <div class="login-form">
+            <h2>Login</h2>
+            <form>
+                <label for="Username">Username:</label>
+                <input type="text" id="Username" placeholder="Username">
+                <label for="Password">Password:</label>
+                <input type="password" id="Password" placeholder="Password">
+                <!-- memanggil myFunction() saat tombol diklik -->
+                <button type="button" onclick="myFunction()">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        function myFunction(){
+            // menampilkan alert yang pertama
+            alert("Hallo Untuk Melanjutkan Klik OK");
+
+            // menampilkan alert2, tampilkan SweetAlert dengan ikon success
+            Swal.fire({
+                title: "Login Success!",
+                text: "You clicked the button!",
+                icon: "success"
+            });
+        }
+    </script>
+</body>
+</html>
